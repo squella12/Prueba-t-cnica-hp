@@ -26,10 +26,9 @@ Una aplicación web construida con Django como backend y React como frontend. Ut
 1. Inicia el servidor de Django con el comando en la carpeta raíz del proyecto.
 ``` python manage.py runserver ```
 
-2. Inicia el servidor de React con el comando 
+2. Inicia el servidor de React con el comando en la carpeta `frontend`.
 ``` npm start ```
 
-en la carpeta `frontend`.
 3. Abre tu navegador en `http://localhost:3000` para ver la aplicación.
 
 ## Funciones
