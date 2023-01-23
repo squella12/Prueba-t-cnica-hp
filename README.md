@@ -9,7 +9,7 @@ Una aplicación web construida con Django como backend y React como frontend. Ut
 
 ## Instalación
 1. Clona este repositorio en tu computadora.
-``` git clone https://github.com/tuusuario/pokeapi-app.git ```
+``` git clone https://github.com/squella12/Prueba-tecnica-hp.git ```
 2. Crea un nuevo entorno virtual en Python con el comando 
 ``` python -m venv nombre_del_entorno_virtual ```
 3. Activa el entorno virtual con el comando 
