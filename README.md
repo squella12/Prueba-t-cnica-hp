@@ -17,16 +17,19 @@ Una aplicación web construida con Django como backend y React como frontend. Ut
 (en Windows, usa `nombre_del_entorno_virtual\Scripts\activate.bat`)
 4. Instala las dependencias de Python con el comando 
 ``` pip install -r requirements.txt ```
-5. Entra en la carpeta `frontend` con el comando 
+5. Realiza las migraciones necesarias para el funcionamiento de la webapp con el comando
+``` python manage.py migrate ```
+6. Entra en la carpeta `frontend` con el comando 
 ``` cd frontend ```
-6. Instala las dependencias de Node.js con el comando 
+7. Instala las dependencias de Node.js con el comando 
 ``` npm install ```
 
 ## Uso
-1. Inicia el servidor de Django con el comando en la carpeta API del proyecto.
+
+1. Inicia el servidor de Django con el comando "python manage.py runserver" en la carpeta API del proyecto.
 ``` python manage.py runserver ```
 
-2. Inicia el servidor de React con el comando en la carpeta `frontend`.
+2. Inicia el servidor de React en una terminal nueva con el comando "npm start" en la carpeta `frontend`.
 ``` npm start ```
 
 3. Abre tu navegador en `http://localhost:3000` para ver la aplicación.
