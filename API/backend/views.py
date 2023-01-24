@@ -82,7 +82,7 @@ class PokemonNameViewSet(viewsets.ModelViewSet):
         return Response(serializer.data)
 
 #Clase para eliminar todos los pokemones de la base de datos
-#la tengo para probar el loading de la pagina
+# (la tengo para probar el loading de la pagina)
 class DeletePokemonsViewSet(viewsets.ModelViewSet):
     queryset = Pokemon.objects.all()
     serializer_class = PokemonSerializer

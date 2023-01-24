@@ -39,6 +39,7 @@ export default function PokemonList() {
                     <img className='w-40' src={require('../assets/Pokémon_logo.png')} alt={"Logo"}></img>
                 </div>
                     <div>
+                        {/* Botones que cambian la url para desplegar la información que tiene esa viewset de django */}
                         <Button handleClick={() => setUrl('pokemon/')} text='All Pokemons' />
                         <Button handleClick={() => setUrl('pokemonweight/')} text='Weight Filter'/>
                         <Button handleClick={() => setUrl('pokemontype/')} text='Type Grass Filter' />

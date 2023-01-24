@@ -1,5 +1,6 @@
 import React from 'react';
 
+//Componente de botones que se utilizan en la barra de navegación
 interface Props {
     handleClick: () => void;
     text: string;

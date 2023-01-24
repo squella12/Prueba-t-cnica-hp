@@ -1,5 +1,6 @@
 import React, { useState, useEffect} from 'react';
 
+//Página de carga mientras los pokemones se guardan en la base de datos
 export default function Loading() {
     return(
         

@@ -1,3 +1,5 @@
+
+// Componente que muestra la información de cada pokemon
 export default function PokemonCard({pokemon}:any) {
     return(
         <div key={pokemon.id} className="flex-row text-center bg-blue-500 rounded-3xl p-3 m-5">                  
